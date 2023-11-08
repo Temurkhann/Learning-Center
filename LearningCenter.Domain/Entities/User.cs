@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearningCenter.Domain.Entities
+namespace LearningCenter.Domain.Entities;
+
+public class User : Auditable
 {
-    public class User : Auditable
-    {
-        public string FirstName { get; set; }
-    }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
 }
