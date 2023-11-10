@@ -1,6 +1,9 @@
-﻿namespace LearningCenter.Domain.Commons;
+namespace LearningCenter.Domain.Commons;
 
 public class Auditable 
 {
-    public int Id { get; set; }
+    public class Auditable 
+    {
+        public int Id { get; set; }
+    }
 }
