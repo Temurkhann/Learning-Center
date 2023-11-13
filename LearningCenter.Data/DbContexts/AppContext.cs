@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningCenter.Data.DbContext
 {
-    internal class AppContact
+    public class AppContext 
     {
     }
 }
